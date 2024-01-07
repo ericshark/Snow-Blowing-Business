@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Services - High Speed Shoveling Corp.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>High Speed Shoveling Corp.</h1>
+        <nav>
+            <ul>
+                <li><a href="structure.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                 <li><a href="order.html">Ordering</a></li>   
+                 <li><a href="about.html">About/Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Place Your Order</h2>
+        <form id="orderForm">
+            <div class="service-option">
+                <label>
+                    <input type="checkbox" name="service" value="basic" data-price="50">
+                    Basic Snow Shoveling - $50
+                </label>
+            </div>
+            <div class="service-option">
+                <label>
+                    <input type="checkbox" name="service" value="commercial" data-price="150">
+                    Commercial Snow Removal - $150
+                </label>
+            </div>
+            <div class="service-option">
+                <label>
+                    <input type="checkbox" name="service" value="full-winter" data-price="300">
+                    Full Winter Package - $300
+                </label>
+            </div>
+            <div id="totalContainer">
+                <p id="total">Total: $0.00</p>
+            </div>
+            <button type="button" id="orderButton">Place Order</button>
+               </form>
+    </main>
+    <footer>
+        <p>Contact us <a href="highspeed@gmail.com">highspeed@gmail.com</a></p>
+        <p>&copy; 2023 High Speed Shoveling Corp. All rights reserved.</p>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
+
